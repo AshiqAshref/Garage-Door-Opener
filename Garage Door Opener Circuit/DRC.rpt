@@ -1,0 +1,70 @@
+** Drc report for firstTry.kicad_pcb **
+** Created on 2025-07-27T02:30:52+1000 **
+
+** Found 13 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(146.2500 mm, 115.5600 mm): Pad 1 [/Esp32_module/ESP32/GPIO_19] of C6 on Front
+    @(146.2500 mm, 115.0600 mm): Pad 2 [GND] of C6 on Front
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1270 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(146.2532 mm, 116.4376 mm): Pad 1 [/Esp32_module/ESP32/GPIO_18] of C2 on Front
+    @(146.2532 mm, 116.9376 mm): Pad 2 [GND] of C2 on Front
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(129.0250 mm, 115.3710 mm): Pad 1 [GND] of C4 on Front
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(132.2200 mm, 117.1600 mm): Pad 11 [GND] of U4 on Front
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(101.8225 mm, 148.2890 mm): Pad 2 [GND] of C16 on Front
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(98.8135 mm, 144.8000 mm): Pad 2 [GND] of C14 on Front
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(98.2125 mm, 149.0750 mm): Pad 4 [GND] of U3 on Front
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(144.4800 mm, 120.0690 mm): Pad 2 [GND] of C1 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.2500 mm, 115.5600 mm): Pad 1 [/Esp32_module/ESP32/GPIO_19] of C6 on Front
+    @(146.2500 mm, 115.0600 mm): Pad 2 [GND] of C6 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(146.2532 mm, 116.4376 mm): Pad 1 [/Esp32_module/ESP32/GPIO_18] of C2 on Front
+    @(146.2532 mm, 116.9376 mm): Pad 2 [GND] of C2 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(129.0250 mm, 114.8090 mm): Pad 2 [/Esp32_module/ESP32/CHIP_PU] of C4 on Front
+    @(129.0250 mm, 115.3710 mm): Pad 1 [GND] of C4 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(101.3625 mm, 150.4110 mm): Pad 1 [Net-(U3-SW)] of C10 on Front
+    @(101.3625 mm, 149.8490 mm): Pad 2 [Net-(U3-BST)] of C10 on Front
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(144.4800 mm, 120.6310 mm): Pad 1 [/Esp32_module/3V3] of C1 on Front
+    @(144.4800 mm, 120.0690 mm): Pad 2 [GND] of C1 on Front
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+    @(146.2500 mm, 115.0600 mm): Pad 2 [GND] of C6 on Front
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.9200 mm, 118.0600 mm): Pad 14 [GND] of U4 on Front
+    @(87.2690 mm, 93.2420 mm): Zone [GND] on Front and Back, priority 0
+
+** Found 0 Footprint errors **
+
+** End of Report **

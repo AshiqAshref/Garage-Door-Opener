@@ -1,0 +1,42 @@
+### Footprint positions - created on 2025-07-27T06:38:25+1000 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                     Package                         PosX       PosY       Rot  Side
+C1        0.1uF/50V_10%           C_0201_0603Metric           144.4800  -120.3500   90.0000  top
+C2        22pF/50V(5%)            C_0603_1608Metric           146.3830  -117.5580  -90.0000  top
+C3        0.1uF/16V_10%           VARC3216X85N                106.9500  -112.1900  180.0000  top
+C4        0.1uF/16V_10%           C_0201_0603Metric           129.0250  -115.0900   90.0000  top
+C5        0.1uF/16V_10%           C_0805_2012Metric            99.7500  -142.7790  180.0000  top
+C6        22pF/50V(5%)            C_0603_1608Metric           146.4050  -114.2950   90.0000  top
+C7        0.1uf/16V_10%           VARC3216X85N                119.7533  -107.3609   90.0000  top
+C8        10uf_tant(0.2-10R_esr)  C_1206_3216Metric           107.0500  -114.8600  180.0000  top
+C9        0.1uF/16V_10%           VARC3216X85N                128.4980  -107.8280   90.0000  top
+C10       0.1uf/16V_10%           C_0201_0603Metric           101.3625  -150.1300   90.0000  top
+C11       10uf/50V                CAPC3225X270N                92.0500  -145.3000  -90.0000  top
+C12       10uf_tant(0.2-10R_esr)  C_1206_3216Metric           112.2100  -114.8700    0.0000  top
+C13       22uf                    C_1206_3216Metric           119.7233  -112.2134  -90.0000  top
+C14       22uf/16V                CAPC1608X100N                99.9400  -144.7490  180.0000  top
+C15       10uf/50V                CAPC3225X270N                95.4600  -145.3000  -90.0000  top
+C16       22uf/16V                CAPC1608X100N               102.1940  -147.5040  -90.0000  top
+C17       47uf                    C_1206_3216Metric           125.7280  -108.0450   90.0000  top
+D6        1N4148W                 D_SOD-123                   121.2400  -119.1000   90.0000  top
+D7        LESD5D5.0CT1G           TVS_LESD5D5.0CT1G           148.2300  -120.9600    0.0000  top
+D8        LESD5D5.0CT1G           TVS_LESD5D5.0CT1G           148.6220  -117.1650   90.0000  top
+D9        LESD5D5.0CT1G           TVS_LESD5D5.0CT1G           148.6970  -114.5890  -90.0000  top
+D10       1N5819HW-7-F            SOD3715X145N                144.7300  -126.3400   90.0000  top
+L1        4.7u_1.5A_-_2A          IND_NRS5030T100MMGJ_TAY     106.2170  -148.2330   90.0000  top
+PWRLED    PWRLED                  0603                        122.8100  -113.7500    0.0000  top
+Q1        MMBT3904                SOT-23                      125.2400  -117.3700  180.0000  top
+R1        3.3k                    R_0603_1608Metric           129.3200  -120.6600  180.0000  top
+R2        10k                     R_0402_1005Metric           134.4000  -131.3650   90.0000  top
+R3        75                      R_0402_1005Metric           121.5933  -111.6334  -90.0000  top
+R4        10K                     R_0402_1005Metric           129.3600  -103.1100    0.0000  top
+R5        10K                     R_0402_1005Metric           142.6500  -120.6200  180.0000  top
+S1        PTS526_SMG15_SMTR2_LFS  SW_PTS526_SMG15_SMTR2_LFS   142.3800  -100.0800   90.0000  top
+S2        PTS526_SMG15_SMTR2_LFS  SW_PTS526_SMG15_SMTR2_LFS   133.5890  -100.0682  -90.0000  top
+SW1       SW_Push                 SW_SPST_PTS645Sx43SMTR92    127.5090  -132.8960  180.0000  top
+U2        AMS1117-3.3             SOT-223-3_TabPin2           113.9933  -109.7809    0.0000  top
+U3        AP63205WU               TSOT-23-6                    99.3230  -147.9410  -90.0000  top
+U4        ESP32-C3-MINI-1U-N4     XCVR_ESP32-C3-MINI-1U-N4    138.1200  -113.1600    0.0000  top
+## End

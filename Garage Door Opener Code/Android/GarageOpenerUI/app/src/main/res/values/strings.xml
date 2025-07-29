@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GarageOpenerUI</string>
+    <string name="scan_amp_connect">Scan &amp; Connect</string>
+    <string name="trigger_garage_door">Trigger Garage Door</string>
+    <string name="logs_n">Logs:\n</string>
+</resources>
